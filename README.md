@@ -4,7 +4,7 @@
 <p> Ao modificar os atributos as estatísticas são atualizadas de forma dinâmica, o resultado foi alcançado a partir do uso de funções do Javascript utilizadas para manipular o DOM </p>
 <p> O código foi escrito com HTML, estilizado com o CSS e dinamizado com Javascript </p>
 <p> Para executar a página por favor cole o link no seu navegador </p>
-<p> *Nova funcionalidade* Agora é possível mudar a cor do robô ao clicar na imagem dele.</p>
+*Nova funcionalidade* Agora é possível mudar a cor do robô ao clicar na imagem dele.
 
 ```
 https://robotron-2000-pedromatta.vercel.app
