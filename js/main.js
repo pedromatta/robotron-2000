@@ -58,3 +58,14 @@ function atualizaEstatisticas (peca) {
         elemento.textContent = parseInt(elemento.textContent) + pecas[peca] [elemento.dataset.estatistica]
     })
 }
+
+const cores = [ 'Robotron 2000 - Azul.png', 'Robotron 2000 - Amarelo.png', 'Robotron 2000 - Branco.png', 'Robotron 2000 - Preto.png', 'Robotron 2000 - Rosa.png', 'Robotron 2000 - Vermelho.png'];
+let i = 0;
+
+function mudarCor() {
+    i++;
+    if (i == cores.length) {
+        i = 0;
+    }
+    document.querySelector('#robotron').src = `img/${cores[i]}`;
+}
